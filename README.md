@@ -33,7 +33,7 @@ scroll page and click on links
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Image
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/Beatles-fanpage/blob/main/assets/images/screenshot.jpg)
 
 ## Languages/Applications
 HTML,CSS
