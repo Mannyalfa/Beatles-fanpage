@@ -1,0 +1,170 @@
+body {
+  background-image: linear-gradient(#00008B,#0000ff, #3366ff, #e6ecff);
+  padding: 5px;
+}  
+
+h1 {
+  margin: 0%;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 45px; 
+}    
+
+#menu {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 20px;
+  color:whitesmoke;
+  background-color: transparent;
+  display: inline;
+
+}
+
+.list-inline > li {
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 30px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin; 0, 0, 0, 5;
+  display: inline;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 25px;
+  color: whitesmoke;
+  margin-right: 25px;
+}
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: skyblue;
+  
+}
+
+
+a:active {
+  color: purple;
+  
+}
+
+.Narr {
+  text-align: justify;
+  
+}
+
+.Events{
+  text-align: justify;
+}
+
+.Top-Hits{
+  text-align: justify;
+}
+.links {
+  text-align: justify;
+}
+
+#revolver {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+h2  {
+  color:rgb(9, 11, 92);
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 30px;
+  margin: 0;
+
+}
+
+.beatpic{
+  width: 530px;
+  height: 300px
+  
+}
+
+p {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif ;
+  color: whitesmoke;
+  background-color:  darkblue ;
+  margin:5px;
+  padding: 10px;
+  
+}
+
+ul, li{
+  width: 75%;
+  padding: 5px;
+  margin-left: 15px;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif ;
+  background-color:   #00008B ;
+  color: whitesmoke;
+  list-style-type: none;}
+
+.beatpic {
+  width: 560px;
+  height: 300px
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+table, th, tr, td {
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00008B;
+  border: 2px solid  #00008B;
+  vertical-align: bottom;
+}
+
+tr:hover {background-color: skyblue;}
+
+
+thead {
+  column-span: all; 
+  color:whitesmoke;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 40px;
+  text-align:center;
+  background-color: #00008B;
+}
+
+.debut {
+  width: 15%;
+  text-align: center; 
+}
+
+.title {
+  width: 40%;
+  text-align: center; 
+}
+
+.hipos {
+  width: 15%;
+  text-align: center; 
+}
+
+.tochart {
+  width: 15%;
+  text-align: center; 
+}
+
+.to-one {
+  width: 15%;
+  text-align: center; 
+}
+
+#links {
+  width: 60%;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif ;
+  font-size: 15px;
+  color: whitesmoke;
+  text-decoration: none;
+}

@@ -1,51 +1,230 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>CSS Practice</title>
-    <link href="style.css" rel= "stylesheet">
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Beatles 1965-1966</title>
+  <link href="./assets/style.css" rel="stylesheet">
+  <link rel="icon" href="./assets/images/beatle-logo.gif">
 </head>
+
 <body>
 
-    <h1>The Wonders of CSS!</h1>
+  <header>
+    <h1>This page is dedicated to the Beatles' Middle Period (1965-1966)</h1>
+    <div id="menu">
+      <ul class="list-inline">
+        <li>
+          <a href="#Narr">Background</a>
+        </li>
+        <li>
+          <a href="#Events">Events</a>
+        </li>
+        <li>
+          <a href="#Top-Hits">Top Hits</a>
+        </li>
+        <li>
+          <a href="#Links">Links</a>
+        </li>
+      </ul>
+    </div>
+    <img id="revolver" src="./assets/images/revolver-album-cover.jpg" alt="Revolver album cover" />
+  </header>
 
-    <hr>
+  <h2 id="Narr">Background</h2>
+  <p>
+    By 1965, the Beatles had established themselves as a top pop/rock group around the world: it was during this time
+    that they began
+    to explore different styles of music, experimented with different recording techniques and more complex songs.
+    They also experimented with drugs and began to grow weary of touring and publicity appearances as Beatlemania
+    spiraled out of
+    control. They began express their philosophical and political views, which sometimes proved controversial. The
+    Beatles were
+    seeking to shed their "Fab Four" image and had begun the transformation, rebranding themselves as icons of the
+    psychedelic age, culminating in the release of the album "Sgt Pepper's Lonely Heart's Club Band" a year later.
+  </p>
 
-    <h2>Fun With Text!</h2>
+  <div>
+    <img id="beatpic" src="./assets/images/beatles-bahamas-help.jpg" loading='lazy' alt="Beatles 1965" />
 
-    <p id="rouge">This text is red.</p>
-    <p id="azure">This text is blue.</p>
-    <p id="vert">This text is green.</p>
+    <iframe width="620" height="440" src="https://www.youtube.com/embed/_5UlGP6cPqI" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
 
-    <p id="btext">This text is BIG!</p>
-    <p id="ttext">This text is tiny...</p>
+  <section>
+    <h2 id="Events">Events</h2>
+    <ul>
+      <li> &#127916; February-April 1965: The making of the movie and album "HELP!"
+      </li>
+      <li> &#127894; June 1965: Awarded 'Members of the British Empire' (MBE) by Queen Elizabeth
+      </li>
+      <li> &#128509; August 1965: U.S. Tour (including 1st Stadium Concert by a rock band at Shea Stadum, NYC)
+      </li>
+      <li> &#127908; October 1965: Recording the "Rubber Soul" Album
+      </li>
+      <li> &#127908; April-June 1966: Recording the "Revolver" Album
+      </li>
+      <li> &#127758; June-August 1966: World Tour
+      </li>
+      <li> &#9969; September-October 1966: Hiatus and individual projects
+      </li>
+      <li> &#127908;November-December 1966: Recording demos for the "Sgt Pepper" Album
+      </li>
+    </ul>
+  </section>
 
-    <p id="ctext">~~This text is centered~~</p>
 
-    <p id="strongtext">If we have something important to say, we can make it bold!</p>
+  <div>
+    <h2 id="Top-Hits">Top Hits 1965-66</h2>
 
-    <!-- Change font -->
-    <p id="trebuchet">We can even change our font-family if we are feeling creative!</p>
+    <table>
+      <tr>
+        <td class="debut"><b>Debut Date</b></td>
+        <td class="title"><b>Title</b></td>
+        <td class="hipos"><b>Highest Position</b></td>
+        <td class="tochart"><b>Weeks on Charts</b></td>
+        <td class="to-one"><b>Weeks at #1</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>2/20/1965</b></td>
+        <td class="title"><b>Eight Days A Week</b></td>
+        <td class="hipos"><b>1</b></td>
+        <td class="tochart"><b>10</b></td>
+        <td class="to-one"><b>2</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>2/20/1965</b></td>
+        <td class="title"><b> I Don't Want To Spoil The Party</b></td>
+        <td class="hipos"><b>39</b></td>
+        <td class="tochart"><b>6</b></td>
+        <td class="to-one"><b>&nbsp;</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>2/27/1965</b></td>
+        <td class="title"><b> 4 - By The Beatles</b></td>
+        <td class="hipos"><b>68</b></td>
+        <td class="tochart"><b>5</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>4/24/1965</b></td>
+        <td class="title"><b> Ticket To Ride</b></td>
+        <td class="hipos"><b>1</b></td>
+        <td class="tochart"><b>11</b></td>
+        <td class="to-one"><b>1</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>4/24/1965</b></td>
+        <td class="title"><b> Yes It Is</b></td>
+        <td class="hipos"><b>46</b></td>
+        <td class="tochart"><b>4</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>7/31/1965</b></td>
+        <td class="title"><b>Help!</b></td>
+        <td class="hipos"><b>1</b></td>
+        <td class="tochart"><b>13</b></td>
+        <td class="to-one"><b>3</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>9/18/1965</b></td>
+        <td class="title"><b> Yesterday</b></td>
+        <td class="hipos"><b><b>1</b></td>
+        <td class="tochart"><b>11</b></td>
+        <td class="to-one"><b>4</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>9/18/1965</b></td>
+        <td class="title"><b> Act Naturally</b></td>
+        <td class="hipos"><b>47</b></td>
+        <td class="tochart"><b>7</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>12/11/1965</b></td>
+        <td class="title"><b> We Can Work It Out</b></td>
+        <td class="hipos"><b><b>1</b></td>
+        <td class="tochart"><b>12</b></td>
+        <td class="to-one"><b>3</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>2/11/1965</b></td>
+        <td class="title"><b> Day Tripper</b></td>
+        <td class="hipos"><b>5</b></td>
+        <td class="tochart"><b>10</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>3/5/1966</b></td>
+        <td class="title"><b>Nowhere Man</b></td>
+        <td class="hipos"><b>3</b></td>
+        <td class="tochart"><b>9</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>3/5/1966</b></td>
+        <td class="title"><b> What Goes On</b></td>
+        <td class="hipos"><b>81</b></td>
+        <td class="tochart"><b>2</b></td>
+        <td class="to-one">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="debut"><b>6/11/1966</b></td>
+        <td class="title"><b>Paperback Writer</b></td>
+        <td class="hipos"><b>1</b></td>
+        <td class="tochart"><b>10</b></td>
+        <td class="to-one"><b>2</b></td>
+      </tr>
+      <tr>
+        <td class="debut"><b>6/11/1966</b></td>
+        <td class="title"><b>Rain</b></td>
+        <td class="hipos"><b>23</b></td>
+        <td class="tochart"><b>7</b></td>
+        <td class="to-one"><b>&nbsp;</b></td>
+      </tr>
+      <td class="debut"><b>8/20/1966</b></td>
+      <td class="title"><b>Yellow Submarine</b></td>
+      <td class="hipos"><b>2</b></td>
+      <td class="tochart"><b>9</b></td>
+      <td class="to-one"></td><b>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="debut"><b>8/20/1966</b></td>
+          <td class="title"><b> Eleanor Rigby</b></td>
+          <td class="hipos"><b>11</b></td>
+          <td class="tochart"><b>8</b></td>
+          <td class=><b>&nbsp;</b></td>
+        </tr>
+        <tr>
+    </table>
+  </div>
 
-    
-    <p id="multi">Try combining multiple attributes to make big, orange, bold text!</p>
+  <br>
 
-    <hr>
+  <h2 id="Links">links</h2 <br>
+  <P>
+    <a id="links" href="https://www.thebeatles.com/" target="_blank" rel="noopener noreferrer" title="Official Page">🎸
+      The Beatles</a>
 
-    <p class="styledFont">We can also apply the same style to multiple HTML elements.</p>
-    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
-    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
-    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
-    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
-    <p class="styledFont">Notice how every time you change the class styledFont, all of the text changes.</p>
+    <br>
 
-    <hr>
+    <a id="links" href="https://brunchradio.com/" target="_blank" rel="noopener noreferrer"
+      title="Music, trivia & more">🎸 Joe Johnson's Beatle Brunch</a>
 
-    <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
+    <br>
 
-    <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
+    <a id="links" href="https://www.beatle.net/" target="_blank" rel="noopener noreferrer" title="Another fanpage">🎸
+      Beatle.net</a>
 
-    <hr>
+    <br>
+
+    <a id="links" href="https://open.spotify.com/playlist/0cukwKVqEY2j3xdeF4jhae" target="_blank"
+      rel="noopener noreferrer" title="Beatles YouTube Channel">🎸 My 'British Invasion' playlist on Spotify</a>
+  </P>
+
 
 </body>
+
 </html>
